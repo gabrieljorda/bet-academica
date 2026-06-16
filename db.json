@@ -1,0 +1,62 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Administrador",
+      "email": "admin@bet.com",
+      "senha": "123",
+      "perfil": "admin",
+      "saldo": 0,
+      "vitorias": 0,
+      "derrotas": 0,
+      "totalApostas": 0
+    },
+    {
+      "id": 2,
+      "nome": "João Silva",
+      "email": "joao@email.com",
+      "senha": "123",
+      "perfil": "usuario",
+      "saldo": 1000,
+      "vitorias": 0,
+      "derrotas": 0,
+      "totalApostas": 0
+    },
+    {
+      "id": 3,
+      "nome": "Maria Santos",
+      "email": "maria@email.com",
+      "senha": "123",
+      "perfil": "usuario",
+      "saldo": 1500,
+      "vitorias": 0,
+      "derrotas": 0,
+      "totalApostas": 0
+    }
+  ],
+  "eventos": [
+    {
+      "id": 1,
+      "timeA": "Brasil",
+      "timeB": "Argentina",
+      "esporte": "Futebol",
+      "data": "2026-06-20T15:00:00",
+      "status": "aberto",
+      "resultado": "",
+      "oddA": 1.8,
+      "oddB": 2.2
+    },
+    {
+      "id": 2,
+      "timeA": "EUA",
+      "timeB": "Espanha",
+      "esporte": "Basquete",
+      "data": "2026-06-21T18:00:00",
+      "status": "aberto",
+      "resultado": "",
+      "oddA": 1.95,
+      "oddB": 1.85
+    }
+  ],
+  "apostas": []
+}
