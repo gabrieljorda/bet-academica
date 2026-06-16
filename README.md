@@ -67,14 +67,14 @@ src/
 ## Pré-requisitos
 
 - [Node.js](https://nodejs.org/) (v18 ou superior)
-- [pnpm](https://pnpm.io/) (gerenciador de pacotes do projeto)
+- [pnpm](https://pnpm.io/) (gerenciador de pacotes do projeto) ou [NPM]
 
 ## Como executar
 
 ### 1. Instalar dependências
 
 ```bash
-pnpm install
+npm install  ou pnpm i
 ```
 
 ### 2. Iniciar a API (JSON Server)
@@ -82,7 +82,7 @@ pnpm install
 Em um terminal:
 
 ```bash
-pnpm server
+npm run server ou pnpm server  
 ```
 
 A API ficará disponível em `http://localhost:3000`.
@@ -92,7 +92,7 @@ A API ficará disponível em `http://localhost:3000`.
 Em outro terminal:
 
 ```bash
-pnpm dev
+npm run dev ou pnpm dev
 ```
 
 A aplicação ficará disponível em `http://localhost:5173`.
@@ -109,10 +109,10 @@ A aplicação ficará disponível em `http://localhost:5173`.
 
 | Comando | Descrição |
 |---|---|
-| `pnpm dev` | Inicia o servidor de desenvolvimento (Vite) |
-| `pnpm build` | Gera a build de produção |
-| `pnpm preview` | Visualiza a build de produção localmente |
-| `pnpm server` | Inicia o JSON Server na porta 3000 |
+| `npm run dev ou pnpm dev` | Inicia o servidor de desenvolvimento (Vite) |
+| `npm run build ou pnpm build` | Gera a build de produção |
+| `npm run preview ou pnpm preview` | Visualiza a build de produção localmente |
+| `npm run server ou pnpm server ` | Inicia o JSON Server na porta 3000 |
 
 ## Modelo de dados
 
