@@ -1,7 +1,7 @@
 {
   "usuarios": [
     {
-      "id": 1,
+      "id": "1",
       "nome": "Administrador",
       "email": "admin@bet.com",
       "senha": "123",
@@ -12,18 +12,18 @@
       "totalApostas": 0
     },
     {
-      "id": 2,
+      "id": "2",
       "nome": "João Silva",
       "email": "joao@email.com",
       "senha": "123",
       "perfil": "usuario",
-      "saldo": 1000,
+      "saldo": 900,
       "vitorias": 0,
       "derrotas": 0,
-      "totalApostas": 0
+      "totalApostas": 1
     },
     {
-      "id": 3,
+      "id": "3",
       "nome": "Maria Santos",
       "email": "maria@email.com",
       "senha": "123",
@@ -36,27 +36,38 @@
   ],
   "eventos": [
     {
-      "id": 1,
+      "id": "1",
       "timeA": "Brasil",
       "timeB": "Argentina",
       "esporte": "Futebol",
       "data": "2026-06-20T15:00:00",
-      "status": "aberto",
-      "resultado": "",
+      "status": "encerrado",
+      "resultado": "Brasil",
       "oddA": 1.8,
       "oddB": 2.2
     },
     {
-      "id": 2,
+      "id": "2",
       "timeA": "EUA",
       "timeB": "Espanha",
       "esporte": "Basquete",
       "data": "2026-06-21T18:00:00",
-      "status": "aberto",
-      "resultado": "",
+      "status": "encerrado",
+      "resultado": "Espanha",
       "oddA": 1.95,
       "oddB": 1.85
     }
   ],
-  "apostas": []
+  "apostas": [
+    {
+      "usuarioId": "2",
+      "eventoId": "1",
+      "palpite": "Brasil",
+      "valor": 100,
+      "status": "pendente",
+      "retorno": 0,
+      "id": "xaHzjz5tEjU"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
